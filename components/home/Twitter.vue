@@ -5,17 +5,15 @@ import { ArrowRight } from 'lucide-vue-next'
 
 <template>
   <a
-    href="https://x.com/0xKaiBi"
+    href="/"
     target="_blank"
-    title="X(Twitter)"
+    title="欢迎来到Sink！"
     class="inline-flex items-center px-3 py-1 mx-auto my-4 space-x-1 text-sm font-medium rounded-lg bg-muted"
   >
-    <XIcon class="w-4 h-4" />
     <Separator
       orientation="vertical"
       class="h-4"
     />
-    <span>Follow me on X(Twitter)</span>
-    <ArrowRight class="w-4 h-4" />
+    <span>Welcome to Sink!</span>
   </a>
 </template>

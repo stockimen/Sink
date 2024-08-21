@@ -4,6 +4,13 @@ import { GitHubIcon } from 'vue3-simple-icons'
 import SwitchTheme from '../SwitchTheme.vue'
 
 const showMenu = ref(false)
+onMounted(() => {
+  const script = document.createElement('script')
+  script.src = 'https://umami.739527.xyz/script.js'
+  script.defer = true
+  script.setAttribute('data-website-id', 'b441decf-2751-4452-8679-9950204bc05b')
+  document.head.appendChild(script)
+})
 </script>
 
 <template>
